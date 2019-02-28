@@ -66,7 +66,7 @@ export default {
         lists.sort((a,b) => a.price - b.price)
         this.num++
       }else{
-        lists.sort((a,b) => b.price - a.price)
+        lists.sort((a,b) => b.price - a.price) 
         this.num++
       }
       this.list = lists
